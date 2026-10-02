@@ -1,0 +1,383 @@
+{
+  "project": "AdvisoryOfflineReview",
+  "upstream_repo": "pypa/pip-audit",
+  "upstream_commit": "828e77a4d4aa6bee8d315681db6928771d951a7c",
+  "license": "Apache-2.0",
+  "selected_files": [
+    {
+      "path": "LICENSE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "git_blob_sha1": "f433b1a53f5b830a205fd2df78e2b34974656c7b",
+      "lines_read": 177,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/LICENSE"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 3438,
+      "sha256": "351d5eaeddb3e1e9a8575f57833bbe292317c06955836dc4885abc215d17e2f9",
+      "git_blob_sha1": "4392508e058a20eb1e7b0367c82250b07faef0a1",
+      "lines_read": 123,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pyproject.toml"
+    },
+    {
+      "path": "pip_audit/_cli.py",
+      "bytes": 23006,
+      "sha256": "c8fa3bf321d7e34c4e048b912a7f5b49a6ebd0742f7d7a3c72a60495222038b8",
+      "git_blob_sha1": "ed3812b8d3835829ad901ff0b02aa3ded70e1105",
+      "lines_read": 652,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_cli.py"
+    },
+    {
+      "path": "pip_audit/_audit.py",
+      "bytes": 3328,
+      "sha256": "1051026fd401e1474b5d53bac7f153eff06a650b3edd9a20787720df36534eca",
+      "git_blob_sha1": "b6537bb522840bbedfc1a3e102a55f44423f2646",
+      "lines_read": 105,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_audit.py"
+    },
+    {
+      "path": "pip_audit/_dependency_source/requirement.py",
+      "bytes": 16205,
+      "sha256": "d8edd9c7e8070fec2403b5aa83f9af9627e1b93313f1504db9a176bf165844fe",
+      "git_blob_sha1": "721b0b04b9e287ec5db8f5a812656c6c4ee260ef",
+      "lines_read": 375,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_dependency_source/requirement.py"
+    },
+    {
+      "path": "pip_audit/_service/osv.py",
+      "bytes": 6005,
+      "sha256": "3514801a68db635390dd968c2c99ccd021c57985040f5b339a2d4c0237766dc3",
+      "git_blob_sha1": "dde1d0ba91703631d78121c132b2214e58e75a3e",
+      "lines_read": 161,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_service/osv.py"
+    },
+    {
+      "path": "pip_audit/_fix.py",
+      "bytes": 3711,
+      "sha256": "2785c00652c76bbd6487cb010246e1372ea0f458b50baa40b8f61960111af4fa",
+      "git_blob_sha1": "3ae19ed532390df20525c0207183accdb4e22093",
+      "lines_read": 126,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_fix.py"
+    },
+    {
+      "path": "pip_audit/_service/interface.py",
+      "bytes": 5959,
+      "sha256": "21bb12bcb35fd35c655e45305273130a9ba909bced59ce7cf9f0b98ebb96853d",
+      "git_blob_sha1": "3ff7a95abc38bd9a268ba281eb3a1dee3c1ea010",
+      "lines_read": 214,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_service/interface.py"
+    },
+    {
+      "path": "pip_audit/_dependency_source/interface.py",
+      "bytes": 1748,
+      "sha256": "32a3756e2397a39d6b0b4d0ce5347be2b50f8ba953e36c0fc9260e826e84ff96",
+      "git_blob_sha1": "9f07739a0f42f5cc270a13c973d750e220c7364c",
+      "lines_read": 69,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_dependency_source/interface.py"
+    },
+    {
+      "path": "pip_audit/_util.py",
+      "bytes": 670,
+      "sha256": "2e298cfca2d313e3117c211e2ecc3ebdf4f9b28e916893c03203424ad35b6006",
+      "git_blob_sha1": "31666295daa83443ffe4906b675bc74d264f18c7",
+      "lines_read": 26,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_util.py"
+    },
+    {
+      "path": "pip_audit/_virtual_env.py",
+      "bytes": 8415,
+      "sha256": "b2718d5acb56ecc85f986ff3d728d73842241f613b49ed7175fe16e3749242de",
+      "git_blob_sha1": "c59ae530d47a963c5cf3ed66cd42dd34dd89192d",
+      "lines_read": 215,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_virtual_env.py"
+    },
+    {
+      "path": "pip_audit/_subprocess.py",
+      "bytes": 2349,
+      "sha256": "c72811cfc09d971e90ab14eb2b4ff01271a6c2d36d1a7f61c25f9f0b7a1eda47",
+      "git_blob_sha1": "504f6d485c533b798026b2db8926aed62c5db19e",
+      "lines_read": 67,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_subprocess.py"
+    },
+    {
+      "path": "pip_audit/_cache.py",
+      "bytes": 6716,
+      "sha256": "1cd9f9a5bf20bec79b3692038ef0e3ac71bf43220b65c31005373d14b1d3bfdc",
+      "git_blob_sha1": "cef93e6558d4e21adc5410677a32db225f42705b",
+      "lines_read": 178,
+      "full_file_review": true,
+      "fixed_source_url": "https://github.com/pypa/pip-audit/blob/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_cache.py"
+    }
+  ],
+  "whole_upstream_repository_semantic_audit": false,
+  "upstream_code_or_tests_executed": false,
+  "upstream_risk_paths": {
+    "pip_audit/_service/osv.py": "OsvService.query uses requests Session.post API and cache writes; removed. New matcher evaluates local ECOSYSTEM timeline/versions instead of trusting a service result.",
+    "pip_audit/_dependency_source/requirement.py": "RequirementSource.collect uses VirtualEnv; fix rewrites requirement files; removed. Explicit inventory only.",
+    "pip_audit/_virtual_env.py": "Creates virtual env, upgrades pip/wheel/setuptools and invokes pip dry-run/report for resolution (metadata/build work possible); removed.",
+    "pip_audit/_cache.py": "Uses requests CacheControl, creates cache dirs/writes and may delete legacy user cache; removed.",
+    "pip_audit/_subprocess.py": "Popen subprocess execution; removed.",
+    "pip_audit/_fix.py": "Iteratively re-queries proposed fixes; removed.",
+    "pip_audit/_cli.py": "Chooses live services/source collectors, output-file writes and source.fix; removed.",
+    "pip_audit/_audit.py": "Sequential alias matching reference; replaced by complete finite transitive alias components."
+  },
+  "standards_primary_sources": [
+    {
+      "url": "https://ossf.github.io/osv-schema/",
+      "version": "1.9.1, September 24 2026",
+      "checked": "2026-10-02",
+      "sections": "aliases; withdrawn; affected packages; versions; ranges/events; evaluation pseudocode; multiple limit OR and infinity."
+    },
+    {
+      "url": "https://packaging.python.org/en/latest/specifications/version-specifiers/",
+      "checked": "2026-10-02",
+      "sections": "PEP 440 normalization/order, epochs, pre/dev/post/local and local-build identity boundary."
+    },
+    {
+      "url": "https://packaging.python.org/en/latest/specifications/name-normalization/",
+      "checked": "2026-10-02",
+      "sections": "Valid package names and canonical names."
+    },
+    {
+      "url": "https://pypi.org/pypi/packaging/26.3/json",
+      "checked": "2026-10-02",
+      "sections": "Dependency version, dual license, wheel published SHA256."
+    }
+  ],
+  "trusted_dependency": {
+    "name": "packaging",
+    "version": "26.3",
+    "wheel_sha256": "d7193f7c8e4e93f444fde0262bf90af30e16fa0ad0ad44cb553c87339b23cd1c",
+    "wheel_bytes": 129956,
+    "license": "Apache-2.0 OR BSD-2-Clause",
+    "reviewed_use": "Version parsing/comparison and canonicalize_name(validate=True). Relevant source interfaces/read code checked; no whole packaging code audit is claimed."
+  },
+  "new_source_snapshot": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "bytes": 997,
+      "sha256": "eb67e93272b98cd9b9f9d29c1683b757ac73e48953b77a48677a207506976b0b"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 100,
+      "sha256": "27d63976fbda93df848e2a57c38aa750f8280c07d8da4b65af57c4e1a35e8256"
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "bytes": 1300,
+      "sha256": "f91a532138fc7a2e30f220a5a9c7e1a5585cc1e640123809070999d00655240e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "MANIFEST.in",
+      "bytes": 295,
+      "sha256": "60795f63c4755d2bc22c4eb2cbe5e55ecaaeb4e1909a5a36b6a9efdb8c15a556"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 714,
+      "sha256": "8a7e749e37b0651ba8756f0b2ba204b3e98610f1fb81c8352148d91d11b3b001"
+    },
+    {
+      "path": "ORIGIN.md",
+      "bytes": 1951,
+      "sha256": "491ab213cf72fe44fd1f80f88d19dc745b31403dd5b1fe83d22c681cd127548c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7007,
+      "sha256": "02b5a1f64a521a68fd8ebed463e4f2288f71b40d7b61b09d4a1536a4f7b084ac"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "bytes": 1442,
+      "sha256": "116dfdb301887bf187aa23ec904393bbb49e66f59885209dcaed9d12140f9498"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 2373,
+      "sha256": "ba8fc768f5838e118ef45ecc71877539c85b6083781545f3d5e9ac77d8bb7c8b"
+    },
+    {
+      "path": "examples/inventory.json",
+      "bytes": 91,
+      "sha256": "7c872983d5ec5a9291b84f46b582a4493072054f163b375b06cca4e49e42ac4b"
+    },
+    {
+      "path": "examples/snapshot.json",
+      "bytes": 378,
+      "sha256": "1eb5fde16d6d576b7ea5914065ec8390fea74e8d510edd2a0f999e62bbb8618d"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 893,
+      "sha256": "3038793236478bd5cfffd9de86377eec8d904aab3a4d6d22c25f98678b454f24"
+    },
+    {
+      "path": "requirements-runtime.lock",
+      "bytes": 95,
+      "sha256": "baf6a8f5ae8296f8449019a6e611c67633ff83d8cfb34321accf15d33a2ca268"
+    },
+    {
+      "path": "src/advisory_offline_review/__init__.py",
+      "bytes": 205,
+      "sha256": "b3361354f809f6ea2ddd7271bf478387d41a5a65fd201879cee5dbbbff7cc4aa"
+    },
+    {
+      "path": "src/advisory_offline_review/__main__.py",
+      "bytes": 86,
+      "sha256": "849162808fbd2f320a8657b71cf69ef03039b5e2992f011e81f7c71cb2a678d1"
+    },
+    {
+      "path": "src/advisory_offline_review/cli.py",
+      "bytes": 1508,
+      "sha256": "5136d13d8867c54536550b34395b7d9ca3bb2fb5b238fad078bcd09ad9a6faf7"
+    },
+    {
+      "path": "src/advisory_offline_review/contracts.py",
+      "bytes": 1968,
+      "sha256": "de8f39723e1a9891d57db64334da128cc37dfb3d50d53856d8d8aad3bec67d4a"
+    },
+    {
+      "path": "src/advisory_offline_review/input.py",
+      "bytes": 4524,
+      "sha256": "df0bc80b57a15c46c74ce4aaffebca614c1d8e556ddf33ab97bcb838b5cc7c2e"
+    },
+    {
+      "path": "src/advisory_offline_review/ranges.py",
+      "bytes": 3872,
+      "sha256": "3c2c6d855e1fc82fcb4441fae07f17babf0fddcfeffb591e67d22ff0fffb36a2"
+    },
+    {
+      "path": "src/advisory_offline_review/review.py",
+      "bytes": 14989,
+      "sha256": "74242ecc1493b5ba8145aceec620b9fbbf277b696fb8a925144ad9c76c53c59b"
+    },
+    {
+      "path": "tests/test_review.py",
+      "bytes": 24464,
+      "sha256": "46729cbd3bf48e03b07f528d6095e869e889a413a65486884beb21d0a7ce77bd"
+    },
+    {
+      "path": "third_party/LICENSE",
+      "bytes": 197,
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+    },
+    {
+      "path": "third_party/LICENSE.APACHE",
+      "bytes": 10174,
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+    },
+    {
+      "path": "third_party/LICENSE.BSD",
+      "bytes": 1344,
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+    }
+  ],
+  "fixed_raw_remote_checks": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/LICENSE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "matches_local": true
+    },
+    {
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pyproject.toml",
+      "sha256": "351d5eaeddb3e1e9a8575f57833bbe292317c06955836dc4885abc215d17e2f9",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_cli.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_cli.py",
+      "sha256": "c8fa3bf321d7e34c4e048b912a7f5b49a6ebd0742f7d7a3c72a60495222038b8",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_audit.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_audit.py",
+      "sha256": "1051026fd401e1474b5d53bac7f153eff06a650b3edd9a20787720df36534eca",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_dependency_source/requirement.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_dependency_source/requirement.py",
+      "sha256": "d8edd9c7e8070fec2403b5aa83f9af9627e1b93313f1504db9a176bf165844fe",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_service/osv.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_service/osv.py",
+      "sha256": "3514801a68db635390dd968c2c99ccd021c57985040f5b339a2d4c0237766dc3",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_fix.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_fix.py",
+      "sha256": "2785c00652c76bbd6487cb010246e1372ea0f458b50baa40b8f61960111af4fa",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_service/interface.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_service/interface.py",
+      "sha256": "21bb12bcb35fd35c655e45305273130a9ba909bced59ce7cf9f0b98ebb96853d",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_dependency_source/interface.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_dependency_source/interface.py",
+      "sha256": "32a3756e2397a39d6b0b4d0ce5347be2b50f8ba953e36c0fc9260e826e84ff96",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_util.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_util.py",
+      "sha256": "2e298cfca2d313e3117c211e2ecc3ebdf4f9b28e916893c03203424ad35b6006",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_virtual_env.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_virtual_env.py",
+      "sha256": "b2718d5acb56ecc85f986ff3d728d73842241f613b49ed7175fe16e3749242de",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_subprocess.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_subprocess.py",
+      "sha256": "c72811cfc09d971e90ab14eb2b4ff01271a6c2d36d1a7f61c25f9f0b7a1eda47",
+      "matches_local": true
+    },
+    {
+      "path": "pip_audit/_cache.py",
+      "url": "https://raw.githubusercontent.com/pypa/pip-audit/828e77a4d4aa6bee8d315681db6928771d951a7c/pip_audit/_cache.py",
+      "sha256": "1cd9f9a5bf20bec79b3692038ef0e3ac71bf43220b65c31005373d14b1d3bfdc",
+      "matches_local": true
+    }
+  ],
+  "new_source_review": {
+    "runtime_modules": 7,
+    "all_runtime_cli_and_tests_semantically_reviewed": true,
+    "dependency_declarations_packaging_ci_provenance_reviewed": true,
+    "unittest_methods": 32,
+    "independent_ordered_index_oracle_cases": 605,
+    "review_level": "implementation author review and measured local tests; independent external/provider review not claimed"
+  }
+}

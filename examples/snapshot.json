@@ -1,0 +1,1 @@
+{"schema_version":1,"snapshot_time":"2026-10-02T00:00:00Z","vulns":[{"schema_version":"1.9.1","id":"SYNTHETIC-001","modified":"2026-10-01T00:00:00Z","summary":"Inert synthetic matching fixture; no real vulnerability is asserted","affected":[{"package":{"ecosystem":"PyPI","name":"inert-demo"},"ranges":[{"type":"ECOSYSTEM","events":[{"introduced":"1.0"},{"fixed":"2.0"}]}]}]}]}
