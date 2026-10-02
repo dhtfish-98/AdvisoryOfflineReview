@@ -168,8 +168,8 @@
   "new_source_snapshot": [
     {
       "path": ".github/workflows/verify.yml",
-      "bytes": 997,
-      "sha256": "eb67e93272b98cd9b9f9d29c1683b757ac73e48953b77a48677a207506976b0b"
+      "bytes": 1021,
+      "sha256": "3623a41c4ea0db7ebfa4db4adcf30f478dd7563e4f81375d4149c3dbda9a73fd"
     },
     {
       "path": ".gitignore",
