@@ -379,5 +379,6 @@
     "unittest_methods": 32,
     "independent_ordered_index_oracle_cases": 605,
     "review_level": "implementation author review and measured local tests; independent external/provider review not claimed"
-  }
+  },
+  "delivery_snapshot_note": "Local implementation/package observations in this record belong to the earlier delivery; current file digests and version are in SOURCE_REVIEW_MANIFEST.json. Upstream identities, hashes and review scope are retained."
 }

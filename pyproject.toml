@@ -3,8 +3,10 @@ requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
+authors = [{name = "dhtfish98"}]
+maintainers = [{name = "dhtfish98"}]
 name = "advisory-offline-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded offline PyPI inventory to OSV snapshot PEP440 matching"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -19,7 +21,7 @@ advisory-offline-review = "advisory_offline_review.cli:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/advisory-offline-review" = ["ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_REVIEW.json", "THIRD_PARTY.md", "requirements-runtime.lock"]
+"share/advisory-offline-review" = ["ORIGIN.md", "DEFENSIVE_SCOPE.md", "VALIDATION.md", "SOURCE_REVIEW.json", "THIRD_PARTY.md", "requirements-runtime.lock", "SOURCE_REVIEW_MANIFEST.json"]
 "share/advisory-offline-review/examples" = ["examples/inventory.json", "examples/snapshot.json"]
 
 [tool.ruff]

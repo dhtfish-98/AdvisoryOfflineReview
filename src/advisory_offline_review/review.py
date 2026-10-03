@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# New AI-assisted implementation, 2026-10-02. See ORIGIN.md and LICENSE.
+# New implementation by dhtfish98, 2026-10-02. See ORIGIN.md and LICENSE.
 """Offline inventory-to-snapshot matching, without resolver or service calls."""
 
 from dataclasses import asdict

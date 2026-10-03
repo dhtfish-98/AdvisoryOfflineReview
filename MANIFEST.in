@@ -4,3 +4,32 @@ recursive-include tests *.py
 recursive-include examples *.json
 recursive-include .github *.yml
 global-exclude *.py[cod]
+
+# Current formal source inventory, including provenance and tests.
+include .github/workflows/verify.yml
+include .gitignore
+include DEFENSIVE_SCOPE.md
+include LICENSE
+include NOTICE
+include ORIGIN.md
+include README.md
+include SOURCE_REVIEW.json
+include SOURCE_REVIEW_MANIFEST.json
+include THIRD_PARTY.md
+include VALIDATION.md
+include examples/inventory.json
+include examples/snapshot.json
+include pyproject.toml
+include requirements-runtime.lock
+include src/advisory_offline_review/__init__.py
+include src/advisory_offline_review/__main__.py
+include src/advisory_offline_review/cli.py
+include src/advisory_offline_review/contracts.py
+include src/advisory_offline_review/input.py
+include src/advisory_offline_review/ranges.py
+include src/advisory_offline_review/review.py
+include tests/test_review.py
+include third_party/LICENSE
+include third_party/LICENSE.APACHE
+include third_party/LICENSE.BSD
+include tests/test_reader_capabilities.py

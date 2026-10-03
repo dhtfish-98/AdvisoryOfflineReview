@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# New AI-assisted implementation, 2026-10-02. See ORIGIN.md and LICENSE.
+# New implementation by dhtfish98, 2026-10-02. See ORIGIN.md and LICENSE.
 """PEP 440 ordering and OSV numbered-range timeline evaluation.
 
 All limits restrict the WHOLE range; multiple limits are an OR. A limit is

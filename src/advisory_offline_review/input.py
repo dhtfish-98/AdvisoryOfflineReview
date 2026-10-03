@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-# New AI-assisted implementation, 2026-10-02. See ORIGIN.md and LICENSE.
+# New implementation by dhtfish98, 2026-10-02. See ORIGIN.md and LICENSE.
 """Bounded strict JSON and POSIX non-following ordinary-file reads."""
 
 import json
@@ -84,12 +84,13 @@ def strict_json(data, maximum, limits):
 def read_regular_file(path, maximum):
     if type(maximum) is not int or not 1 <= maximum <= 4194304:
         raise Rejected("read_budget_contract")
-    flags = ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK", "O_CLOEXEC")
-    if (
-        os.name != "posix"
-        or os.open not in os.supports_dir_fd
-        or not all(hasattr(os, f) for f in flags)
-    ):
+    required = ('O_NOFOLLOW', 'O_DIRECTORY', 'O_NONBLOCK', 'O_CLOEXEC')
+    directory_capabilities = getattr(os, "supports_dir_fd", None)
+    directory_relative_open = (
+        isinstance(directory_capabilities, (set, frozenset))
+        and os.open in directory_capabilities
+    )
+    if os.name != "posix" or any(type(getattr(os, flag, None)) is not int or getattr(os, flag) <= 0 for flag in required) or not directory_relative_open:
         raise Rejected("safe_read_unavailable")
     path = os.fspath(path)
     if (

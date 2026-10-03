@@ -1,0 +1,175 @@
+{
+  "schema": "current-formal-source-manifest/v1",
+  "project": "AdvisoryOfflineReview",
+  "version": "0.1.1",
+  "new_implementation_author": "dhtfish98",
+  "new_implementation_maintainer": "dhtfish98",
+  "baseline_commit": "5f0700467816d7a419aadb8dfbdb3bdc5c751c6c",
+  "runtime_review": "All own runtime files read; test files inspected for scope and executed. Upstream review remains bounded as stated in ORIGIN.md.",
+  "files": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "3623a41c4ea0db7ebfa4db4adcf30f478dd7563e4f81375d4149c3dbda9a73fd",
+      "bytes": 1021,
+      "lines": 27
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "27d63976fbda93df848e2a57c38aa750f8280c07d8da4b65af57c4e1a35e8256",
+      "bytes": 100,
+      "lines": 10
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "f91a532138fc7a2e30f220a5a9c7e1a5585cc1e640123809070999d00655240e",
+      "bytes": 1300,
+      "lines": 7
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174,
+      "lines": 177
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "dc239b59b93f984a24aa334fc75e30c974d4e0d13857903536d9fcce9163ab45",
+      "bytes": 1232,
+      "lines": 35
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "240bf008224ae2cecb0053f77cc74216bdf09245c51a9574d166fc50a2267dba",
+      "bytes": 807,
+      "lines": 12
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "6a7f7c2dbd929e5230a39ac224a873c1964c7c012a591831a191c62b3e5d36c6",
+      "bytes": 2212,
+      "lines": 11
+    },
+    {
+      "path": "README.md",
+      "sha256": "7d99feb0d5938a5683d1296395f37763667db9f66b3b857d7206c75cfd7b3102",
+      "bytes": 7451,
+      "lines": 43
+    },
+    {
+      "path": "SOURCE_REVIEW.json",
+      "sha256": "55867c78c14fd0ccf977e03f3ffed214cb4d21a108306d3b5dcc2776ea11ec91",
+      "bytes": 16605,
+      "lines": 384
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256": "116dfdb301887bf187aa23ec904393bbb49e66f59885209dcaed9d12140f9498",
+      "bytes": 1442,
+      "lines": 9
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "352bd667158c4e737da18a126ec251c4457d3fb7d0549808b08d0d945249c460",
+      "bytes": 3635,
+      "lines": 52
+    },
+    {
+      "path": "examples/inventory.json",
+      "sha256": "7c872983d5ec5a9291b84f46b582a4493072054f163b375b06cca4e49e42ac4b",
+      "bytes": 91,
+      "lines": 1
+    },
+    {
+      "path": "examples/snapshot.json",
+      "sha256": "1eb5fde16d6d576b7ea5914065ec8390fea74e8d510edd2a0f999e62bbb8618d",
+      "bytes": 378,
+      "lines": 1
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "cd39f99e816179b5ed344c9434880d06d74383efdbfd17ee870efd0a6a42bd0d",
+      "bytes": 994,
+      "lines": 32
+    },
+    {
+      "path": "requirements-runtime.lock",
+      "sha256": "baf6a8f5ae8296f8449019a6e611c67633ff83d8cfb34321accf15d33a2ca268",
+      "bytes": 95,
+      "lines": 1
+    },
+    {
+      "path": "src/advisory_offline_review/__init__.py",
+      "sha256": "b3361354f809f6ea2ddd7271bf478387d41a5a65fd201879cee5dbbbff7cc4aa",
+      "bytes": 205,
+      "lines": 7
+    },
+    {
+      "path": "src/advisory_offline_review/__main__.py",
+      "sha256": "849162808fbd2f320a8657b71cf69ef03039b5e2992f011e81f7c71cb2a678d1",
+      "bytes": 86,
+      "lines": 4
+    },
+    {
+      "path": "src/advisory_offline_review/cli.py",
+      "sha256": "d3c31b15243e811f43487de34d0e50279dea84c4c8492c9c4ce04e23a42a5040",
+      "bytes": 1509,
+      "lines": 39
+    },
+    {
+      "path": "src/advisory_offline_review/contracts.py",
+      "sha256": "0e89b32cc26b156d4e45089508a044befadae3cfb2cc510cbbe2c063a3560eca",
+      "bytes": 1969,
+      "lines": 74
+    },
+    {
+      "path": "src/advisory_offline_review/input.py",
+      "sha256": "71634a87d170a697068cadcef8149e257da90bdd18aef3da1281660ab889fbae",
+      "bytes": 4755,
+      "lines": 140
+    },
+    {
+      "path": "src/advisory_offline_review/ranges.py",
+      "sha256": "14937e46ae859c91a624b9178c01c850458e759241c3a47c2ffb9fc2a7005f9d",
+      "bytes": 3873,
+      "lines": 99
+    },
+    {
+      "path": "src/advisory_offline_review/review.py",
+      "sha256": "1ca4ce3629d3944778fa86b1c8fb04228735b943e25ea5b03ec62b448ff185ec",
+      "bytes": 14990,
+      "lines": 353
+    },
+    {
+      "path": "tests/test_reader_capabilities.py",
+      "sha256": "e46c5a671cb5299d48ded5886f2086e53a31c7a5ad4941643c8718ef846ae834",
+      "bytes": 3599,
+      "lines": 74
+    },
+    {
+      "path": "tests/test_review.py",
+      "sha256": "46729cbd3bf48e03b07f528d6095e869e889a413a65486884beb21d0a7ce77bd",
+      "bytes": 24464,
+      "lines": 585
+    },
+    {
+      "path": "third_party/LICENSE",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "bytes": 197,
+      "lines": 3
+    },
+    {
+      "path": "third_party/LICENSE.APACHE",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "bytes": 10174,
+      "lines": 177
+    },
+    {
+      "path": "third_party/LICENSE.BSD",
+      "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "bytes": 1344,
+      "lines": 23
+    }
+  ],
+  "manifest_self_digest": "excluded",
+  "engineering_scope": "Source/package evidence; new hosted CI, applicant eligibility and provider approval are separate."
+}
