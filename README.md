@@ -1,7 +1,7 @@
 # AdvisoryOfflineReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.1**.
+New implementation author: **dhtfish98**. Current project version: **0.1.2**.
 
 Review an explicit local PyPI inventory against an authorized local OSV JSON snapshot. This is a new bounded offline matcher with pip-audit as a fixed source reference. It implements PEP 440 ordering through `packaging==26.3`; it never queries a vulnerability API, resolves dependencies, installs inventoried packages or applies fixes.
 
@@ -38,6 +38,6 @@ Explicit local ordinary files are opened on POSIX through directory descriptors 
 
 Limits can be lowered through `Limits`: 512 KiB inventory, 4 MiB snapshot, depth 32, 50,000 JSON nodes, 256 packages, 512 advisories, 64 affected entries/advisory, 64 ranges/affected entry, 256 events/range, 4096 versions/affected entry, 8192 enumerated versions total, 128 aliases/advisory, 4096 aliases total, 100,000 matching comparisons and 4 MiB JSON report. Values are positive exact integers within these ceilings; report minimum is 4096 bytes. Budget exhaustion is OPEN and does not erase known matches. Oversized reports produce a compact incomplete summary retaining the known-match count and FAIL when applicable. Finite parsing budgets are not an OS sandbox.
 
-Python 3.11+. Every ordinary CLI invocation emits one JSON report to stdout, including usage/input errors, without argument/path echo; `--help` is the ordinary informational exception. See ORIGIN.md, SOURCE_REVIEW.json, THIRD_PARTY.md, DEFENSIVE_SCOPE.md and VALIDATION.md. New source/tests/docs are produced under repository-owner direction under Apache-2.0, with original licenses/attribution retained. Repository presence does not establish independent applicant contribution or provider approval.
+Python 3.11+. Every ordinary CLI invocation emits one JSON report to stdout, including usage/input errors, without argument/path echo; `--help` is the ordinary informational exception. See ORIGIN.md, SOURCE_REVIEW.json, THIRD_PARTY.md, DEFENSIVE_SCOPE.md and VALIDATION.md. New source/tests/docs are produced under repository-owner direction under Apache-2.0, with licenses for actual distributed materials retained. Repository presence does not establish independent applicant contribution or provider approval.
 
 Local-file capability boundary: required OS flags must be exact positive integers. Descriptor walking also requires declared `os.open` directory-relative support. Missing, null, zero, boolean or otherwise invalid required capabilities return a controlled OPEN result before file access. Native Windows local-file reading is outside this POSIX profile.

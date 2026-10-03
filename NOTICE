@@ -1,12 +1,9 @@
-AdvisoryOfflineReview, new offline implementation by dhtfish98, 2026-10-02.
-Source mechanism reference: pypa/pip-audit at fixed Git commit
-828e77a4d4aa6bee8d315681db6928771d951a7c, Apache License 2.0.
-Upstream metadata authors: Alex Cameron, Dustin Ingram, William Woodruff.
-The complete original LICENSE is retained unchanged. New work replaces selected
-workflows and does not claim complete upstream equivalence or endorsement.
-Dependency: packaging 26.3, Donald Stufft and individual contributors;
-dual Apache-2.0 OR BSD-2-Clause, original notices in third_party/ and distributions.
-This attribution does not transfer upstream authorship or prove applicant
-independent contribution or CVP approval. No warranty.
+AdvisoryOfflineReview 0.1.2
+Copyright 2026 dhtfish98. New implementation author and maintainer: dhtfish98.
+New source is licensed under Apache-2.0 in LICENSE.
 
-New implementation copyright 2026 dhtfish98. Original upstream notices above are retained.
+This is an independent bounded offline implementation. pip-audit is a fixed
+design reference described in ORIGIN.md; no pip-audit code or fixtures are shipped.
+packaging 26.3 is a separate runtime dependency, not rewritten or vendored here.
+Its separately distributed package retains its own original license and notices.
+No upstream endorsement, unaided human authorship or CVP approval is asserted.

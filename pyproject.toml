@@ -6,12 +6,12 @@ build-backend = "setuptools.build_meta"
 authors = [{name = "dhtfish98"}]
 maintainers = [{name = "dhtfish98"}]
 name = "advisory-offline-review"
-version = "0.1.1"
+version = "0.1.2"
 description = "Bounded offline PyPI inventory to OSV snapshot PEP440 matching"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "Apache-2.0"
-license-files = ["LICENSE", "NOTICE", "third_party/LICENSE*"]
+license-files = ["LICENSE", "NOTICE"]
 dependencies = ["packaging==26.3"]
 
 [project.scripts]

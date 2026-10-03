@@ -1,5 +1,4 @@
 include README.md LICENSE NOTICE ORIGIN.md DEFENSIVE_SCOPE.md VALIDATION.md SOURCE_REVIEW.json THIRD_PARTY.md requirements-runtime.lock
-recursive-include third_party LICENSE*
 recursive-include tests *.py
 recursive-include examples *.json
 recursive-include .github *.yml
@@ -28,8 +27,5 @@ include src/advisory_offline_review/contracts.py
 include src/advisory_offline_review/input.py
 include src/advisory_offline_review/ranges.py
 include src/advisory_offline_review/review.py
-include tests/test_review.py
-include third_party/LICENSE
-include third_party/LICENSE.APACHE
-include third_party/LICENSE.BSD
 include tests/test_reader_capabilities.py
+include tests/test_review.py
