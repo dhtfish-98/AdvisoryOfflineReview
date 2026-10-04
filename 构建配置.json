@@ -31,6 +31,11 @@
       "sha256": "0098e2340339d5bb618d550c6a77a30dd40118c61fe9b4be1345d12f1ba9f4e2"
     },
     {
+      "original": "SOURCE_REVIEW.json",
+      "stored": "项目文档/SOURCE_REVIEW.json",
+      "sha256": "55867c78c14fd0ccf977e03f3ffed214cb4d21a108306d3b5dcc2776ea11ec91"
+    },
+    {
       "original": "THIRD_PARTY.md",
       "stored": "项目文档/THIRD_PARTY.md",
       "sha256": "86795e85e3e89989e9922d161c0df26df5266f5bba968ad509b35de0cac5d2ea"

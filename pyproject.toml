@@ -21,7 +21,7 @@ advisory-offline-review = "advisory_offline_review.cli:main"
 where = ["src"]
 
 [tool.setuptools.data-files]
-"share/advisory-offline-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "SOURCE_REVIEW.json", "项目文档/THIRD_PARTY.md", "requirements-runtime.lock", "SOURCE_REVIEW_MANIFEST.json"]
+"share/advisory-offline-review" = ["项目文档/ORIGIN.md", "项目文档/DEFENSIVE_SCOPE.md", "项目文档/VALIDATION.md", "项目文档/SOURCE_REVIEW.json", "项目文档/THIRD_PARTY.md", "requirements-runtime.lock", "SOURCE_REVIEW_MANIFEST.json"]
 "share/advisory-offline-review/examples" = ["examples/inventory.json", "examples/snapshot.json"]
 
 [tool.ruff]
