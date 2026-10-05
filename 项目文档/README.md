@@ -3,7 +3,7 @@
 # AdvisoryOfflineReview
 
 
-New implementation author: **dhtfish98**. Current project version: **0.1.2**.
+New implementation author: **dhtfish98**. Current project version: **0.1.3**.
 
 Review an explicit local PyPI inventory against an authorized local OSV JSON snapshot. This is a new bounded offline matcher with pip-audit as a fixed source reference. It implements PEP 440 ordering through `packaging==26.3`; it never queries a vulnerability API, resolves dependencies, installs inventoried packages or applies fixes.
 
